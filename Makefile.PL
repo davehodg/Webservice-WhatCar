@@ -19,20 +19,19 @@ requires 'XML::Simple';
 requires 'Encode';
 
 
-test_requires    'Test::More'  => '0.98';
-test_requires    'Test::More' => '0';
-test_requires    'Test::Most' => '0';
-test_requires    'Test::Portability::Files' => '0';
-test_requires    'Test::Synopsis' => '0';
-test_requires    'Test::Vars' => '0';
-test_requires    'Test::DistManifest' => '0';
-test_requires    'Test::CPAN::Meta' => '0';
-test_requires    'Test::EOL' => '0';
-test_requires    'Test::HasVersion' => '0';
-test_requires    'Test::Kwalitee' => '0';
-test_requires    'Test::MinimumVersion' => '0';
-test_requires    'Test::NoTabs' => '0';
-test_requires    'Pod::Coverage::TrustPod' => '0';
+requires    'Test::More'  => '0.98';
+requires    'Test::Most' => '0';
+requires    'Test::Portability::Files' => '0';
+requires    'Test::Synopsis' => '0';
+requires    'Test::Vars' => '0';
+requires    'Test::DistManifest' => '0';
+requires    'Test::CPAN::Meta' => '0';
+requires    'Test::EOL' => '0';
+requires    'Test::HasVersion' => '0';
+requires    'Test::Kwalitee' => '0';
+requires    'Test::MinimumVersion' => '0';
+requires    'Test::NoTabs' => '0';
+requires    'Pod::Coverage::TrustPod' => '0';
 
 
 WriteAll;
