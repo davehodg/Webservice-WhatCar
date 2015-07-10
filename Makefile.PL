@@ -32,6 +32,8 @@ requires    'Test::Kwalitee' => '0';
 requires    'Test::MinimumVersion' => '0';
 requires    'Test::NoTabs' => '0';
 requires    'Pod::Coverage::TrustPod' => '0';
+requires    'Test::Pod';
+requires    'Test::Perl::Critic';
 
 
 WriteAll;
